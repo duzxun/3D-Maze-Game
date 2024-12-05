@@ -20,7 +20,11 @@ The entire project was developed in C programming language, ensuring smooth perf
 
 ## Features
 - First-Person Perspective: Experience the maze from a first-person view for immersive gameplay.
-
+- Graphics Rendering: Utilizes the VGA Pixel Buffer to dynamically render the maze and animations.
+- User Input Handling: Integrated through the PS/2 Keyboard interface.
+- Timer Management: The ARM A9 Private Timer ensures smooth and consistent animation updates.
+- Text Output: The Character Buffer displays menu and game-related instructions.
+  
 ## Keyboard Controls:
 - [3D Maze Game Manual](./3D_Maze_Manual.pdf)
 - SPACE: Start the game.
@@ -65,12 +69,6 @@ Configure the simulator:
 
 ### Restarting the Game:
 - After winning, press ENTER to start a new game.
-
-## Technical Details
-- Graphics Rendering: Utilizes the VGA Pixel Buffer to dynamically render the maze and animations.
-- User Input Handling: Integrated through the PS/2 Keyboard interface.
-- Timer Management: The ARM A9 Private Timer ensures smooth and consistent animation updates.
-- Text Output: The Character Buffer displays menu and game-related instructions.
 
 ## Tips for Gameplay
 - For smoother gameplay, consider turning textures off.

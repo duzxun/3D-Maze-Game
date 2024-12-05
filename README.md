@@ -22,7 +22,7 @@ The entire project was developed in C programming language, ensuring smooth perf
 - First-Person Perspective: Experience the maze from a first-person view for immersive gameplay.
 
 ## Keyboard Controls:
-- [3D Maze Game Manual](./3D_Maze_Manual)
+- [3D Maze Game Manual](./3D_Maze_Manual.pdf)
 - SPACE: Start the game.
 - Arrow Keys: Navigate (rotate, move forward/back).
 - S Key: Access the settings menu.
@@ -40,7 +40,7 @@ Configure the simulator:
 - Architecture: ARMv7.
 - System: ARMv7 DE1-SoC.
 - Change the language to C.
-- File -> Open -> Select the provided [C source file](./ECE243_project_v17).
+- File -> Open -> Select the provided [source file](./ECE243_project_v17.c).
 - Compile and load the program (F5).
 - Start execution by clicking Continue (F3).
 - Observe the game's output on the VGA Pixel Buffer window.

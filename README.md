@@ -1,4 +1,5 @@
 # 3D-Maze-Game
+The 3D Maze Game has been developed as the final project of ECE243 Computer Organization course at the University of Toronto (Winter 2020).
 
 ## Project Overview
 This project implements a 3D first-person maze game using the ARMv7 DE1-SoC simulator, CPUlator. The game immerses players in a maze where they navigate to find the red wall or EXIT door. The implementation demonstrates expertise in embedded systems, hardware-software integration, and interactive application design. 
@@ -13,10 +14,15 @@ It leverages key I/O devices such as:
 
 The entire project was developed in C programming language, ensuring smooth performance and logical consistency within the simulated environment.
 
+## Demo
+
+- [3D Maze Game](https://d-uzun.wixsite.com/deniz-uzun/post/3d-maze-game)
+
 ## Features
 - First-Person Perspective: Experience the maze from a first-person view for immersive gameplay.
 
 ## Keyboard Controls:
+- [3D Maze Game Manual](./3D_Maze_Manual)
 - SPACE: Start the game.
 - Arrow Keys: Navigate (rotate, move forward/back).
 - S Key: Access the settings menu.
@@ -25,7 +31,7 @@ The entire project was developed in C programming language, ensuring smooth perf
 - ENTER Key: Restart the game.
 - Customizable Graphics: Players can toggle maze textures on or off for smoother gameplay or enhanced visuals.
 - Win Condition: Reach the red wall or EXIT door to win the game.
-- Replayable: Start a new game easily by pressing ENTER after winning.
+- Replay: Start a new game easily by pressing ENTER after winning.
 
 ## Setup Instructions
 - Open the [CPUlator](https://cpulator.01xz.net/)
@@ -34,7 +40,7 @@ Configure the simulator:
 - Architecture: ARMv7.
 - System: ARMv7 DE1-SoC.
 - Change the language to C.
-- File -> Open -> Select the provided C source file.
+- File -> Open -> Select the provided [C source file](./ECE243_project_v17).
 - Compile and load the program (F5).
 - Start execution by clicking Continue (F3).
 - Observe the game's output on the VGA Pixel Buffer window.
